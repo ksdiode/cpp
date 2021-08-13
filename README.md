@@ -16,4 +16,6 @@
 
 ## chapter02 - 제어 구조
 1. __논리/비교 연산자__
+1. __if 문/switch문__
+1. __while/do whild 문__
 
