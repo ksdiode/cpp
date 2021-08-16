@@ -10,9 +10,18 @@ int main() {
 
   cout << sum << endl << endl;
 
-  for(int& i : list) {
+  for(int i : list) {
+    i = i*i;
     cout << i << " ";
   }
+  cout << "---" << list[1] << endl;  // ?   2
+
+
+  for(int& i : list) {
+    i = i*i;
+    cout << i << " ";
+  }
+  cout << "---" << list[1] << endl;  // ?   4
 
   cout << endl;
   for(auto& i : list) {
